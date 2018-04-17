@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Test">
+        <attr name="ColorArcProgressBar_front_color1" format="color"/>
+        <attr name="ColorArcProgressBar_front_color2" format="color"/>
+        <attr name="ColorArcProgressBar_front_color3" format="color"/>
+        <attr name="ColorArcProgressBar_total_engle" format="integer"/>
+        <attr name="ColorArcProgressBar_back_width" format="dimension"/>
+        <attr name="ColorArcProgressBar_front_width" format="dimension"/>
+        <attr name="ColorArcProgressBar_is_need_title" format="boolean"/>
+        <attr name="ColorArcProgressBar_is_need_content" format="boolean"/>
+        <attr name="ColorArcProgressBar_is_need_unit" format="boolean"/>
+        <attr name="ColorArcProgressBar_is_need_dial" format="boolean"/>
+        <attr name="ColorArcProgressBar_string_unit" format="string"/>
+        <attr name="ColorArcProgressBar_string_title" format="string"/>
+        <attr name="ColorArcProgressBar_current_value" format="float"/>
+        <attr name="ColorArcProgressBar_max_value" format="float"/>
+    </declare-styleable>
+</resources>

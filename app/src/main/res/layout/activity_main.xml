@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_width="245dp"
+            android:layout_height="190dp"
+            android:background="@mipmap/user_card_bg_body1"/>
+        <lczq.teatprogress.PercentView
+            android:layout_marginTop="43dp"
+            android:id="@+id/percent_view"
+            android:layout_width="match_parent"
+            android:layout_height="159dp"
+            />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

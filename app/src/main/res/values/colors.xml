@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="percent_pink">#fff0f0</color>
+    <color name="percent_yellow">#c7a975</color>
+    <color name="percent_pink_red">#ff5656</color>
+    <color name="percent_red">#fa4040</color>
+    <color name="percent_deep_red">#f60157</color>
+    <color name="percent_gray">#d3dae0</color>
+    <color name="percent_wheat">#F5DEB3</color><!--浅黄色 -->
+
+</resources>

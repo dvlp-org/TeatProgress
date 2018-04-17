@@ -1,0 +1,1223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <!--头部-进度-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!--头部模块-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="124dp"
+                    android:background="#D7AC72"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="59dp"
+                        android:background="@mipmap/acount_bus_iocn_default_user_head" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="22dp"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:lineSpacingExtra="12sp"
+                                android:text="身份证:"
+                                android:textColor="#fffefe"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="6dp"
+                                android:lineSpacingExtra="12sp"
+                                android:text="1245433421****1234:"
+                                android:textColor="#fffefe"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:lineSpacingExtra="12sp"
+                                android:text="手机号:"
+                                android:textColor="#fffefe"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="6dp"
+                                android:lineSpacingExtra="12sp"
+                                android:text="138*******7989:"
+                                android:textColor="#fffefe"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!--业务进度-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginRight="13dp"
+                    android:layout_marginTop="100dp"
+                    android:background="@mipmap/acount_bus_bg_body1"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="53dp">
+
+                        <LinearLayout
+                            android:layout_marginLeft="28dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="13dp"
+                                android:layout_height="13dp"
+                                android:background="@mipmap/acount_bus_icon_zro_false" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="9dp"
+                                android:gravity="center_horizontal"
+                                android:letterSpacing="-0.05"
+                                android:lineSpacingExtra="12.9sp"
+                                android:text="注册会员"
+                                android:textColor="#c7a975"
+                                android:textSize="10.9sp" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="0.5dp"
+                            android:layout_marginTop="6dp"
+                            android:background="#c7a975" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="13dp"
+                                android:layout_height="13dp"
+                                android:background="@mipmap/acount_bus_icon_zro_false" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="9dp"
+                                android:gravity="center_horizontal"
+                                android:letterSpacing="-0.05"
+                                android:lineSpacingExtra="12.9sp"
+                                android:text="资金账号"
+                                android:textColor="#c7a975"
+                                android:textSize="10.9sp" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="0.5dp"
+                            android:layout_marginTop="6dp"
+                            android:background="#c7a975" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="13dp"
+                                android:layout_height="13dp"
+                                android:background="@mipmap/acount_bus_icon_zro_false" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="9dp"
+                                android:gravity="center_horizontal"
+                                android:letterSpacing="-0.05"
+                                android:lineSpacingExtra="12.9sp"
+                                android:text="现金宝"
+                                android:textColor="#c7a975"
+                                android:textSize="10.9sp" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="0.5dp"
+                            android:layout_marginTop="6dp"
+                            android:background="#c7a975" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="13dp"
+                                android:layout_height="13dp"
+                                android:background="@mipmap/acount_bus_icon_zro_false" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="9dp"
+                                android:gravity="center_horizontal"
+                                android:letterSpacing="-0.05"
+                                android:lineSpacingExtra="12.9sp"
+                                android:text="工资理财"
+                                android:textColor="#c7a975"
+                                android:textSize="10.9sp" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="0.5dp"
+                            android:layout_marginTop="6dp"
+                            android:background="#c7a975" />
+                        <LinearLayout
+                            android:layout_marginRight="40dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="13dp"
+                                android:layout_height="13dp"
+                                android:background="@mipmap/acount_bus_icon_zro_false" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="9dp"
+                                android:gravity="center_horizontal"
+                                android:letterSpacing="-0.05"
+                                android:lineSpacingExtra="12.9sp"
+                                android:text="沪A"
+                                android:textColor="#c7a975"
+                                android:textSize="10.9sp" />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="0.5dp"
+                        android:layout_height="18dp"
+                        android:layout_gravity="right"
+                        android:layout_marginBottom="9.5dp"
+                        android:layout_marginRight="49dp"
+                        android:layout_marginTop="8.5dp"
+                        android:background="#c7a975" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="22dp">
+
+                        <LinearLayout
+                            android:layout_marginLeft="28dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="13dp"
+                                android:layout_height="13dp"
+                                android:background="@mipmap/acount_bus_icon_zro_false" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="9dp"
+                                android:gravity="center_horizontal"
+                                android:letterSpacing="-0.05"
+                                android:lineSpacingExtra="12.9sp"
+                                android:text="场内基金"
+                                android:textColor="#c7a975"
+                                android:textSize="10.9sp" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="0.5dp"
+                            android:layout_marginTop="6dp"
+                            android:background="#c7a975" />
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="13dp"
+                                android:layout_height="13dp"
+                                android:background="@mipmap/acount_bus_icon_zro_false" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="9dp"
+                                android:gravity="center_horizontal"
+                                android:letterSpacing="-0.05"
+                                android:lineSpacingExtra="12.9sp"
+                                android:text="港股通"
+                                android:textColor="#c7a975"
+                                android:textSize="10.9sp" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="0.5dp"
+                            android:layout_marginTop="6dp"
+                            android:background="#c7a975" />
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="13dp"
+                                android:layout_height="13dp"
+                                android:background="@mipmap/acount_bus_icon_zro_false" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="9dp"
+                                android:gravity="center_horizontal"
+                                android:letterSpacing="-0.05"
+                                android:lineSpacingExtra="12.9sp"
+                                android:text="两融"
+                                android:textColor="#c7a975"
+                                android:textSize="10.9sp" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="0.5dp"
+                            android:layout_marginTop="6dp"
+                            android:background="#c7a975" />
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="13dp"
+                                android:layout_height="13dp"
+                                android:background="@mipmap/acount_bus_icon_zro_false" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="9dp"
+                                android:gravity="center_horizontal"
+                                android:letterSpacing="-0.05"
+                                android:lineSpacingExtra="12.9sp"
+                                android:text="创业板"
+                                android:textColor="#c7a975"
+                                android:textSize="10.9sp" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="0.5dp"
+                            android:layout_marginTop="6dp"
+                            android:background="#c7a975" />
+
+                        <LinearLayout
+                            android:layout_marginRight="40dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="13dp"
+                                android:layout_height="13dp"
+                                android:background="@mipmap/acount_bus_icon_zro_false" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="9dp"
+                                android:gravity="center_horizontal"
+                                android:letterSpacing="-0.05"
+                                android:lineSpacingExtra="12.9sp"
+                                android:text="深A"
+                                android:textColor="#c7a975"
+                                android:textSize="10.9sp" />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <!--注册会员-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="104dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:background="#FFFFFF"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="49dp"
+                            android:layout_height="49dp"
+                            android:layout_marginLeft="15dp"
+                            android:background="@mipmap/acount_bus_icon_startvip" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="注册会员"
+                                android:textColor="#000000"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:text="您已绑定资金账号"
+                                android:textColor="#999999"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="38dp"
+                            android:layout_height="38dp"
+                            android:layout_marginRight="30dp"
+                            android:background="@mipmap/acount_bus_icon_open" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginTop="4dp"
+                        android:background="@mipmap/acount_bus_icon_state_open" />
+
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:background="#e7e7e7" />
+            </LinearLayout>
+
+            <!--资金账号-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="104dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:background="#FFFFFF"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="49dp"
+                            android:layout_height="49dp"
+                            android:layout_marginLeft="15dp"
+                            android:background="@mipmap/acount_bus_iocn_zjzh" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="资金账号：66662780"
+                                    android:textColor="#000000"
+                                    android:textSize="14sp" />
+
+                                <TextView
+                                    android:layout_width="14dp"
+                                    android:layout_height="14dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:background="@mipmap/acount_bus_icon_startvip" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:text="您已绑定资金账号"
+                                android:textColor="#999999"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="70dp"
+                            android:layout_height="30dp"
+                            android:layout_marginRight="14dp"
+                            android:background="#c7a975"
+                            android:gravity="center"
+                            android:text="立即解绑"
+                            android:textColor="#ffffff"
+                            android:textSize="13sp" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="14dp"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginTop="4dp"
+                        android:background="@mipmap/acount_bus_icon_state_open" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:background="#e7e7e7" />
+            </LinearLayout>
+
+            <!--现金宝-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="104dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:background="#FFFFFF"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="49dp"
+                            android:layout_height="49dp"
+                            android:layout_marginLeft="15dp"
+                            android:background="@mipmap/acount_bus_icon_xjb" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="现金宝"
+                                android:textColor="#000000"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:text="暂时没有签约现金宝理财"
+                                android:textColor="#999999"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="70dp"
+                            android:layout_height="30dp"
+                            android:layout_marginRight="14dp"
+                            android:background="#c7a975"
+                            android:gravity="center"
+                            android:text="立即签约"
+                            android:textColor="#ffffff"
+                            android:textSize="13sp" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="14dp"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginTop="4dp"
+                        android:background="@mipmap/acount_bus_icon_state_open" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:background="#e7e7e7" />
+            </LinearLayout>
+
+            <!--工资理财-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="104dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:background="#FFFFFF"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="49dp"
+                            android:layout_height="49dp"
+                            android:layout_marginLeft="15dp"
+                            android:background="@mipmap/acount_bus_icon_gzlc" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="工资理财"
+                                android:textColor="#000000"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:text="暂时没有使用工资理财"
+                                android:textColor="#999999"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="70dp"
+                            android:layout_height="30dp"
+                            android:layout_marginRight="14dp"
+                            android:background="#c7a975"
+                            android:gravity="center"
+                            android:text="立即存入"
+                            android:textColor="#ffffff"
+                            android:textSize="13sp" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="14dp"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginTop="4dp"
+                        android:background="@mipmap/acount_bus_icon_state_open" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:background="#e7e7e7" />
+            </LinearLayout>
+
+            <!--沪A股东卡-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="104dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:background="#FFFFFF"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="49dp"
+                            android:layout_height="49dp"
+                            android:layout_marginLeft="15dp"
+                            android:background="@mipmap/acount_bus_icon_ha" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="深A股东卡"
+                                android:textColor="#000000"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:text="暂时不能交易沪A股票"
+                                android:textColor="#999999"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="70dp"
+                            android:layout_height="30dp"
+                            android:layout_marginRight="14dp"
+                            android:background="#c7a975"
+                            android:gravity="center"
+                            android:text="立即开通"
+                            android:textColor="#ffffff"
+                            android:textSize="13sp" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="14dp"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginTop="4dp"
+                        android:background="@mipmap/acount_bus_icon_state_open" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:background="#e7e7e7" />
+            </LinearLayout>
+
+            <!--深A股东卡-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="104dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:background="#FFFFFF"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="49dp"
+                            android:layout_height="49dp"
+                            android:layout_marginLeft="15dp"
+                            android:background="@mipmap/acount_bus_icon_sa" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="沪A股东卡"
+                                android:textColor="#000000"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:text="暂时不能交易深A股票v"
+                                android:textColor="#999999"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="70dp"
+                            android:layout_height="30dp"
+                            android:layout_marginRight="14dp"
+                            android:background="#c7a975"
+                            android:gravity="center"
+                            android:text="立即开通"
+                            android:textColor="#ffffff"
+                            android:textSize="13sp" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="14dp"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginTop="4dp"
+                        android:background="@mipmap/acount_bus_icon_state_open" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:background="#e7e7e7" />
+            </LinearLayout>
+
+            <!--创业板-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="104dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:background="#FFFFFF"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="49dp"
+                            android:layout_height="49dp"
+                            android:layout_marginLeft="15dp"
+                            android:background="@mipmap/acount_bus_icon_cyb" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="创业板"
+                                android:textColor="#000000"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:text="暂时不能交易创业板股票"
+                                android:textColor="#999999"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="70dp"
+                            android:layout_height="30dp"
+                            android:layout_marginRight="14dp"
+                            android:background="#c7a975"
+                            android:gravity="center"
+                            android:text="立即开通"
+                            android:textColor="#ffffff"
+                            android:textSize="13sp" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="14dp"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginTop="4dp"
+                        android:background="@mipmap/acount_bus_icon_state_open" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:background="#e7e7e7" />
+            </LinearLayout>
+
+            <!--融资融券-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="104dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:background="#FFFFFF"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="49dp"
+                            android:layout_height="49dp"
+                            android:layout_marginLeft="15dp"
+                            android:background="@mipmap/acount_bus_icon_rong" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="融资融券"
+                                android:textColor="#000000"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:text="暂时不能交易融资融券"
+                                android:textColor="#999999"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="70dp"
+                            android:layout_height="30dp"
+                            android:layout_marginRight="14dp"
+                            android:background="#c7a975"
+                            android:gravity="center"
+                            android:text="立即开通"
+                            android:textColor="#ffffff"
+                            android:textSize="13sp" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="14dp"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginTop="4dp"
+                        android:background="@mipmap/acount_bus_icon_state_open" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:background="#e7e7e7" />
+            </LinearLayout>
+
+            <!--港股通-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="104dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:background="#FFFFFF"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="49dp"
+                            android:layout_height="49dp"
+                            android:layout_marginLeft="15dp"
+                            android:background="@mipmap/acount_bus_icon_ggt" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="港股通"
+                                android:textColor="#000000"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:text="暂时不能交易港股通"
+                                android:textColor="#999999"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="70dp"
+                            android:layout_height="30dp"
+                            android:layout_marginRight="14dp"
+                            android:background="#c7a975"
+                            android:gravity="center"
+                            android:text="立即开通"
+                            android:textColor="#ffffff"
+                            android:textSize="13sp" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="14dp"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginTop="4dp"
+                        android:background="@mipmap/acount_bus_icon_state_open" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:background="#e7e7e7" />
+            </LinearLayout>
+
+            <!--场内基金-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="104dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:background="#FFFFFF"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="49dp"
+                            android:layout_height="49dp"
+                            android:layout_marginLeft="15dp"
+                            android:background="@mipmap/acount_bus_icon_cnjj" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="场内基金"
+                                android:textColor="#000000"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:text="暂时不能交易场内基金"
+                                android:textColor="#999999"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="70dp"
+                            android:layout_height="30dp"
+                            android:layout_marginRight="14dp"
+                            android:background="#c7a975"
+                            android:gravity="center"
+                            android:text="立即开通"
+                            android:textColor="#ffffff"
+                            android:textSize="13sp" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="14dp"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginTop="4dp"
+                        android:background="@mipmap/acount_bus_icon_state_open" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:background="#e7e7e7" />
+            </LinearLayout>
+
+            <!--底部-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:letterSpacing="0.05"
+                    android:lineSpacingExtra="12sp"
+                    android:text="温馨提示"
+                    android:textColor="#333333"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="26dp"
+                    android:layout_marginTop="6dp"
+                    android:letterSpacing="0.05"
+                    android:lineSpacingExtra="14sp"
+                    android:text="股市有风险，投资需谨慎"
+                    android:textColor="#666666"
+                    android:textSize="11sp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
